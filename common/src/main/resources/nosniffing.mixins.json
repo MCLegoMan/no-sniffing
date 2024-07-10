@@ -3,12 +3,12 @@
 	"package": "com.mclegoman.nosniffing.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"WardenEntityMixin"
+		"WardenEntityMixin",
+		"WardenBrainMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
 	},
 	"client": [
-		"WardenBrainMixin"
 	]
 }

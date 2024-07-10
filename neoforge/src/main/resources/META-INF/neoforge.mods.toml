@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/MCLegoMan/nosniffing/issues"
+license = "LGPL-3.0-or-later"
+
+[[mods]]
+modId = "nosniffing"
+version = "${version}"
+displayName = "No Sniffing"
+displayURL = "https://github.com/MCLegoMan/nosniffing"
+logoFile = "icon.png"
+authors = "MCLegoMan"
+description = '''I've got your nose!'''
+
+[[dependencies.nosniffing]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.nosniffing]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "nosniffing.mixins.json"

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "nosniffing",
+    "version": "${version}",
+    "metadata": {
+      "name": "No Sniffing",
+      "description": "I've got your nose!",
+      "contributors": {
+        "MCLegoMan": "Author"
+      },
+      "contact": {
+        "homepage": "https://github.com/MCLegoMan/nosniffing",
+        "issues": "https://github.com/MCLegoMan/nosniffing/issues",
+        "sources": "https://github.com/MCLegoMan/nosniffing/"
+      },
+      "icon": "assets/nosniffing/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": "~1.21"
+      }
+    ]
+  },
+  "mixin": [
+    "nosniffing.mixins.json"
+  ]
+}

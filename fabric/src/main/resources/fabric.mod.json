@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "nosniffing",
+  "version": "${version}",
+  "name": "No Sniffing",
+  "description": "I've got your nose!",
+  "authors": [
+    "MCLegoMan"
+  ],
+  "contact": {
+    "homepage": "https://github.com/MCLegoMan/nosniffing",
+    "issues": "https://github.com/MCLegoMan/nosniffing/issues",
+    "sources": "https://github.com/MCLegoMan/nosniffing/"
+  },
+  "license": "LGPL-3.0-or-later",
+  "icon": "assets/nosniffing/icon.png",
+  "environment": "*",
+  "mixins": [
+    "nosniffing.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "~1.21"
+  }
+}
